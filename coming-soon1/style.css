@@ -1,0 +1,174 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	background-image: url('image/bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+}
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.rscsp_cs_page h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 30px 0 50px 0;
+	padding: 0;
+}
+.rscsp_cs_page h1 span {
+	display: block;
+	font-weight: 400;
+	font-size: 18px;
+}
+.rscsp_cs_page .rscsp_title_1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 30px;
+}
+.rscsp_cs_page .rscsp_os_box {
+	display: block;
+	margin: 20px auto;
+	padding: 0;
+	width: 500px;
+	max-width: 95%;
+	text-align: center;
+	overflow: hidden;
+}
+.rscsp_cs_page .rscsp_os_box h2 {
+	margin: 0;
+	background: #fff;
+	font-size: 48px;
+	line-height: normal;
+	color: #8d8988;
+	text-transform: uppercase;
+	padding: 15px 10px;
+	font-weight: 500;
+	letter-spacing: 10px;
+
+}
+.rscsp_cs_page .rscsp_os_box h3 {
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 400;
+	border-right: 1px solid rgba(255,255,255,.5);
+	border-left: 1px solid rgba(255,255,255,.5);
+	padding: 20px 0;
+	position: relative;
+}
+.rscsp_cs_page .rscsp_os_box h3:before,
+.rscsp_cs_page .rscsp_os_box h3:after {
+	position: absolute;
+	content: "";
+	height: 12px;
+	background: rgba(255,255,255,.5);
+	left: 100%;
+	width: 1px;
+	top: 100%;
+}
+.rscsp_cs_page .rscsp_os_box h3:before{
+	left: auto;
+	right: 100%;
+}
+.rscsp_cs_page .rscsp_os_box h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 4px;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	padding: 0 5px;
+}
+.rscsp_cs_page .rscsp_os_box h4:before,
+.rscsp_cs_page .rscsp_os_box h4:after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	left: 100%;
+	top: 50%;
+}
+.rscsp_cs_page .rscsp_os_box h4:before{
+	left: auto;
+	right: 100%;
+}
+.rscsp_cs_page .rscsp_contact_form {
+	display: block;
+	width: 380px;
+	margin: 70px auto 50px auto;
+	max-width: 100%;
+}
+.rscsp_cs_page .rscsp_contact_form .input-group{
+	position: relative;
+}
+
+.rscsp_cs_page .rscsp_contact_form .input-group .form-control {
+	border: 1px solid rgba(255,255,255,.3);
+	background: transparent;
+	color: #fff;
+	box-shadow: none !important;
+	border-radius: 0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 13px;
+	height: 40px;
+}
+.rscsp_cs_page .rscsp_contact_form .input-group .input-group-append {
+	position: absolute;
+	right: 10px;
+	top: 3px;
+	bottom: 0;
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+}
+.rscsp_cs_page .rscsp_contact_form .btn {
+	border: 1px solid rgba(255,255,255,.3);
+	border-radius: 0;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 21px;
+}
+.rscsp_cs_page .rscsp_contact_form .btn:hover{
+	background-color: rgba(255,255,255,.3);
+}
+.rscsp_cs_page .rscsp_social_list {
+	text-align: center;
+	display: block;
+	margin: 100px 0 70px 0;
+}
+.rscsp_cs_page .rscsp_social_list a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px 25px;
+	transition: all .5s;
+}
+.rscsp_cs_page .rscsp_social_list a:hover{
+	opacity: .6;
+}
+.rscsp_cs_page .rscsp_social_list a i{}
